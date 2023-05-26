@@ -1,4 +1,4 @@
-PATCH http://localhost:8000/updateUser/5
+PATCH http://localhost:8000/user/5
 Content-Type: application/json
 
 

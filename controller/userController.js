@@ -7,7 +7,7 @@ module.exports.createUser = async (req,res) => {
     } catch (error) {
         res.status(400).send(error.message)
     }
-}
+};
 
 module.exports.getAllUsers = async (req,res) => {
     try {
@@ -16,7 +16,7 @@ module.exports.getAllUsers = async (req,res) => {
     } catch (error) {
         res.status(400).send(error.message)
     }
-}
+};
 
 module.exports.updateUser = async (req,res) => {
     try {
@@ -29,7 +29,20 @@ module.exports.updateUser = async (req,res) => {
     } catch (error) {
         res.status(400).send(error.message)
     }
-}
+};
+
+module.exports.getUser = async (req,res) => {
+    try {
+        const {params:{id}} = req;
+        const foundUser = await User.findOne(id);
+        if (foundUser) {
+          return  res.status(200).send(foundUser);
+        }
+        res.status(400).send(`User not found with id ${id}`);
+    } catch (error){
+        res.status(400).send(error.message)
+    }
+};
 
 module.exports.deleteUser = async (req,res) => {
     try {
@@ -40,4 +53,4 @@ module.exports.deleteUser = async (req,res) => {
     } catch (error){
         res.status(400).send(error.message)
     }
-}
+};

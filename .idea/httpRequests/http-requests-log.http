@@ -1,3 +1,278 @@
+GET http://localhost:8000/user/55
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201453.400.html
+
+###
+
+GET http://localhost:8000/user/55
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201452.400.html
+
+###
+
+GET http://localhost:8000/user/55
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201451.400.html
+
+###
+
+GET http://localhost:8000/user/55
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201450.400.html
+
+###
+
+GET http://localhost:8000/user/55
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201431.400.html
+
+###
+
+GET http://localhost:8000/user/55
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201400.400.html
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201355.200.json
+
+###
+
+GET http://localhost:8000/user/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201233.200.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T201231-1.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T201231.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T201230-1.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T201230.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T201229.201.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201227.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201225.200.json
+
+###
+
+GET http://localhost:8000/user/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8000/user/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T201150.200.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200904.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200903.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200902.201.json
+
+###
+
+POST http://localhost:8000/user
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200835.404.html
+
+###
+
 PATCH http://localhost:8000/updateUser/5
 Content-Type: application/json
 Content-Length: 86
@@ -409,339 +684,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-05-25T200012.400.html
-
-###
-
-PATCH http://localhost:8000/updateUser/2
-Content-Type: application/json
-Content-Length: 86
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "JohnNik",
-  "email": "test@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T200008.200.txt
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T200005-1.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T200005.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T200004.201.json
-
-###
-
-GET http://localhost:8000/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T200002.200.json
-
-###
-
-GET http://localhost:8000/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T195810.200.json
-
-###
-
-DELETE http://localhost:8000/deleteUser/4
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T195808.200.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195804-1.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195804.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195803-2.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195803-1.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195803.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195802-1.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195802.201.json
-
-###
-
-GET http://localhost:8000/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T195759.200.json
-
-###
-
-GET http://localhost:8000/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T195645.200.json
-
-###
-
-GET http://localhost:8000/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T195225.200.json
-
-###
-
-PATCH http://localhost:8000/updateUser/2
-Content-Type: application/json
-Content-Length: 86
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "JohnNik",
-  "email": "test@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195219.200.txt
-
-###
-
-GET http://localhost:8000/users
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-25T195217.200.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195215-1.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195215.201.json
-
-###
-
-POST http://localhost:8000/createUser
-Content-Type: application/json
-Content-Length: 85
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "Johf",
-  "email": "tesdft@mail.com",
-  "gender": "male",
-  "age": "30"
-}
-
-<> 2023-05-25T195214-1.201.json
 
 ###
 
