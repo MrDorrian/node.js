@@ -1,690 +1,747 @@
-POST http://localhost:8000/createUser
+PATCH http://localhost:8000/updateUser/5
 Content-Type: application/json
-Content-Length: 65
+Content-Length: 86
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
+  "name": "JohnNik",
   "email": "test@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191651.200.html
+<> 2023-05-25T200527.202.txt
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "email": "test@mail.com",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191637.201.json
+<> 2023-05-25T200526.201.json
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200525.201.json
+
+###
+
+PATCH http://localhost:8000/updateUser/5
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "JohnNik",
   "email": "test@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191056-1.201.json
+<> 2023-05-25T200522.400.html
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "email": "test@mail.com",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191056.201.json
+<> 2023-05-25T200519.201.json
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "email": "test@mail.com",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191055-1.201.json
+<> 2023-05-25T200518-1.201.json
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "email": "test@mail.com",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191055.201.json
+<> 2023-05-25T200518.201.json
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200517.201.json
+
+###
+
+PATCH http://localhost:8000/updateUser/5
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "JohnNik",
   "email": "test@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191054-1.201.json
+<> 2023-05-25T200513.400.html
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200450.200.json
+
+###
+
+PATCH http://localhost:8000/updateUser/5
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "JohnNik",
+  "email": "test@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200447.202.txt
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "email": "test@mail.com",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191054.201.json
+<> 2023-05-25T200443.201.json
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "email": "test@mail.com",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191053.201.json
+<> 2023-05-25T200442-1.201.json
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200442.201.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200437.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200311.200.json
+
+###
+
+PATCH http://localhost:8000/updateUser/2
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "JohnNik",
   "email": "test@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191052.201.json
+<> 2023-05-25T200307.202.txt
 
 ###
 
 POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200304.201.json
+
+###
+
+POST http://localhost:8000/createUser
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200303.201.json
+
+###
+
+POST http://localhost:8000/createUser
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Johf",
+  "email": "tesdft@mail.com",
+  "gender": "male",
+  "age": "30"
+}
+
+<> 2023-05-25T200302.201.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200259.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200258.200.json
+
+###
+
+DELETE http://localhost:8000/deleteUser/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200254.400.html
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200247.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200053.200.json
+
+###
+
+PATCH http://localhost:8000/updateUser/2
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "JohnNik",
   "email": "test@mail.com",
   "gender": "male",
   "age": "30"
 }
 
-<> 2023-05-25T191049.201.json
+<> 2023-05-25T200051.400.html
 
 ###
 
-POST http://localhost:3000/createUser
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200014.200.json
+
+###
+
+DELETE http://localhost:8000/deleteUser/4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200012.400.html
+
+###
+
+PATCH http://localhost:8000/updateUser/2
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 86
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "age": "30",
+  "name": "JohnNik",
+  "email": "test@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-25T190438.200.html
+<> 2023-05-25T200008.200.txt
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-25T190235.200.html
+<> 2023-05-25T200005-1.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-25T190104.200.html
+<> 2023-05-25T200005.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-25T190102.200.html
+<> 2023-05-25T200004.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T200002.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T195810.200.json
+
+###
+
+DELETE http://localhost:8000/deleteUser/4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T195808.200.json
+
+###
+
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 83
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-25T190030.200.html
+<> 2023-05-25T195804-1.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-25T183813.200.json
+<> 2023-05-25T195804.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T180341.200.json
+<> 2023-05-25T195803-2.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T180339.200.json
+<> 2023-05-25T195803-1.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T180335.200.json
+<> 2023-05-25T195803.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T175751.200.json
+<> 2023-05-25T195802-1.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T175634.200.html
+<> 2023-05-25T195802.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T195759.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T195645.200.json
+
+###
+
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T195225.200.json
+
+###
+
+PATCH http://localhost:8000/updateUser/2
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 86
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "JohnNik",
+  "email": "test@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T144628.200.json
+<> 2023-05-25T195219.200.txt
 
 ###
 
-POST http://localhost:3000/createUser
+GET http://localhost:8000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-25T195217.200.json
+
+###
+
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T144526.200.json
+<> 2023-05-25T195215-1.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T144337.200.html
+<> 2023-05-25T195215.201.json
 
 ###
 
-POST http://localhost:3000/createUser
+POST http://localhost:8000/createUser
 Content-Type: application/json
-Content-Length: 114
+Content-Length: 85
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 {
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
+  "name": "Johf",
+  "email": "tesdft@mail.com",
   "gender": "male",
-  "email": "test@mail.com"
+  "age": "30"
 }
 
-<> 2023-05-24T144326.200.html
-
-###
-
-POST http://localhost:3000/createUser
-Content-Type: application/json
-Content-Length: 114
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
-  "gender": "male",
-  "email": "test@mail.com"
-}
-
-<> 2023-05-24T144318.200.html
-
-###
-
-POST http://localhost:3000/createUser
-Content-Type: application/json
-Content-Length: 116
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "John",
-  "password": "TestPassword1",
-  "age": "30",
-  "gender": "male",
-  "email": "test@mail.comß"
-}
-
-<> 2023-05-24T144311.200.html
-
-###
-
-POST http://localhost:3000/createUser
-Content-Type: application/json
-Content-Length: 134
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "John",
-  "LastName": "Jameson",
-  "phone": "+38099564893",
-  "age":30,
-  "gender": "male",
-  "email": "test@mail.comß"
-}
-
-<> 2023-05-24T142212.200.html
-
-###
-
-POST http://localhost:3000/createUser
-Content-Length: 134
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "John",
-  "LastName": "Jameson",
-  "phone": "+38099564893",
-  "age":30,
-  "gender": "male",
-  "email": "test@mail.comß"
-}
-
-<> 2023-05-24T142131.200.html
-
-###
-
-POST http://localhost:3000/createUser
-Content-Length: 134
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "name": "John",
-  "LastName": "Jameson",
-  "phone": "+38099564893",
-  "age":30,
-  "gender": "male",
-  "email": "test@mail.comß"
-}
-
-<> 2023-05-24T142117.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T140515.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T140513.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T140512.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T140510.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T140509.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T134327.200.html
-
-###
-
-POST http://localhost:3000
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-24T134302.404.html
-
-###
-
-GET http://192.168.1.84:8000
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-22T225532.200.txt
-
-###
-
-GET http://192.168.1.84:8000
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-22T225518.200.txt
-
-###
-
-GET http://192.168.1.84:8000
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-22T225310.200.txt
-
-###
-
-GET http://192.168.1.84:8000
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-22T225252.200.txt
-
-###
-
-GET http://192.168.1.84:8000
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-22T225056.200.txt
+<> 2023-05-25T195214-1.201.json
 
 ###
 
