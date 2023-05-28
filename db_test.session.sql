@@ -1,13 +1,25 @@
 DROP TABLE "users";
 CREATE TABLE "users" (
-    first_name varchar(64) NOT NULL CHECK (first_name != ''),
+    id serial CONSTRAINT "PK_USER" PRIMARY KEY,
+    first_name varchar(64) NOT NULL CONSTRAINT "CK_FN_NOT_EMPTY" CHECK (first_name != ''),
     last_name varchar(64) NOT NULL CHECK (last_name != ''),
     email varchar(256) NOT NULL UNIQUE CHECK (email != ''),
-    is_male boolean NOT NULL,
-    birthday date NOT NULL CHECK (birthday < current_date),
+    is_male boolean NOT NULL DEFAULT FALSE,
+    birthday date NOT NULL CONSTRAINT "CK_BD_NOT_AFTER_TODAY" CHECK (birthday < current_date),
     age decimal NOT NULL
 );
-INSERT INTO "users"
+
+ALTER TABLE "users"
+ADD COLUMN "is_banned" boolean NOT NULL DEFAULT FALSE; 
+
+INSERT INTO "users" (
+        "first_name",
+        "last_name",
+        "email",
+        "is_male",
+        "birthday",
+        "age"
+    )
 VALUES (
         'Max',
         'Dundukov',
@@ -32,16 +44,3 @@ VALUES (
         '09/27/1993',
         28
     );
-DROP TABLE "messages";
-
-CREATE TABLE "messages" (
-    "id" bigserial PRIMARY KEY,
-    "body" varchar(5000) NOT NULL CHECK("body" != ''),
-    "author" varchar(128) NOT NULL CHECK("author" != ''),
-    "created_at" timestamp NOT NULL DEFAULT current_timestamp
-);
-
-INSERT INTO "messages" ("author", "body")
-VALUES ('test_user', 'Test_Body 1'),
-('test_user1', 'Test_Body 2'),
-('test_user2', 'Test_Body 3');
