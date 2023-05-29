@@ -1,6 +1,6 @@
 DROP TABLE "users";
 CREATE TABLE "users" (
-    id UUID PRIMARY KEY,
+    id serial PRIMARY KEY,
     first_name varchar(64) NOT NULL,
     last_name varchar(64) NOT NULL,
     email varchar(256) NOT NULL UNIQUE CHECK (email != ''),
@@ -49,7 +49,9 @@ VALUES (
         'anna@gmail.com',
         false,
         '09/27/1990',
-        1.58);
+        1.58
+    );
+
 DROP TABLE "products";
 CREATE TABLE "products" (
     "id" serial PRIMARY KEY,
@@ -81,7 +83,8 @@ VALUES ('apple', 1000, 10),
 INSERT INTO "orders" ("customer_id")
 VALUES(2);
 INSERT INTO "products_to_orders" ("order_id", "product_id", "quantity")
-VALUES (1, 1,2),(1, 2, 5),
+VALUES (1, 1, 2),
+(1, 2, 5),
     (1, 3, 6),
     (1, 4, 2),
-    (1, 5, 1)
+    (1, 5, 1);
