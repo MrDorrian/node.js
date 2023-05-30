@@ -1,4 +1,4 @@
-const { loadUsers } = require("./api/api.js");
+const { loadUsers } = require("./configs/api");
 const { User, client } = require("./models");
 
 (async () => {
