@@ -207,6 +207,41 @@ WHERE extract(
 --  
 SELECT *
 FROM "workers"
-WHERE BETWEEN extract('year', age("birthday")) >= 13 AND extract('year', age("birthday")) <= 20;
+WHERE extract('year' from age("birthday")) BETWEEN 15 AND 25;
 ----------------------------------------------------------------
-
+--Средний рост пользователей
+SELECT avg("height")
+FROM "users";
+--Средний рост man and woman
+SELECT avg("height"),
+    "is_male"
+FROM "users"
+GROUP BY "is_male";
+--min height man and woman
+SELECT min("height"),
+    "is_male"
+FROM "users"
+GROUP BY "is_male";
+--min/max/avg height man and woman
+SELECT avg("height"),
+    max("height"),
+    min("height"),
+    "is_male"
+FROM "users"
+GROUP BY "is_male";
+--count people birth at 1970-01-01
+SELECT count(*)
+FROM "users"
+WHERE "birthday" = '1965-10-01';
+--count people with NAME = ...
+SELECT count(*)
+FROM "users"
+WHERE "first_name" = 'Amelia';
+--count people with age between 20 and 30
+SELECT count(*)
+FROM "users"
+WHERE extract('year' from age("birthday")) BETWEEN 20 AND 30;
+--check if there are users with id 
+SELECT *
+FROM "users"
+WHERE "id" IN (300,200,145,654);
