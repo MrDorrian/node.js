@@ -4,7 +4,9 @@ module.exports.extractUsers = (users) => {
       ({ name: { first, last }, email, gender, dob: { date , age} }) =>
         `('${first}', '${last}', '${email}', '${
           gender === "male"
-        }', '${date}', '1.8' ,'${age}')`
+        }', '${date}', '${(
+          Math.random() + 1
+        ).toFixed(2)}' ,'${age}')`
     )
     .join(", ");
 };
